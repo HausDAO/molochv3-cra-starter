@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# moloch v3 cra starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Development
 
 ## Available Scripts
 

@@ -1,56 +1,42 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-// import { H1 } from "@daohaus/ui";
-import { formatValueTo } from "@daohaus/utils";
+import logo from "./assets/hausBlock.svg";
 
-import { TestIcon } from "@daohaus/test-icon";
-import { Button, H1 } from "@daohaus/ui";
-// import {
-//   CONTRACT_KEYCHAINS,
-//   generateExplorerLink,
-// } from "@daohaus/keychain-utils";
-// import { formatDateTimeFromSeconds, FORM_COPY } from "@daohaus/utils";
+import { FormProvider, useForm } from "react-hook-form";
+
+import { DataMd, H2, Link, SingleColumnLayout } from "@daohaus/ui";
+
+import { DHLayout } from "@daohaus/connect";
 
 function App() {
-  // const contracts = CONTRACT_KEYCHAINS;
-
-  // console.log("contracts", contracts);
-
-  // const exploreLink = generateExplorerLink({
-  //   chainId: "0x5",
-  //   address: "0xAce0A31d08671CE10a7c8232B14Dc5Ef6CD63534",
-  //   type: "address",
-  // });
-
-  // console.log("exploreLink", exploreLink);
-
-  // const formCopy = FORM_COPY;
-
-  // console.log("formCopy", formCopy);
-
-  // const now = new Date().getTime() / 1000;
-  // const time = formatDateTimeFromSeconds(now.toFixed());
-
-  // console.log("time", time);
-
-  const num = formatValueTo({ value: "10.77272", format: "number" });
-
-  console.log("num", num);
-
+  const methods = useForm();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <H1>POOOPIN</H1>
+    <FormProvider {...methods}>
+      <DHLayout
+        pathname={"/"}
+        navLinks={[
+          { label: "Home", href: `/` },
+          { label: "Example Form", href: "/form" },
+        ]}
+      >
+        <SingleColumnLayout>
+          <H2>DAOhaus is your haus.</H2>
 
-        <TestIcon />
+          <img src={logo} alt="DAOhaus blocks" />
 
-        <Button>BUTTON</Button>
+          <DataMd>Get started by editing: src/App.tsx</DataMd>
 
-        {/* <WrappedInput id="1"></WrappedInput> */}
-      </header>
-    </div>
+          <Link type="external" href="https://toolbox.daohaus.fun/">
+            Documentation
+          </Link>
+          <Link type="external" href="https://admin.daohaus.club/">
+            Admin
+          </Link>
+          <Link type="external" href="https://admin.daohaus.club/">
+            Example Form
+          </Link>
+        </SingleColumnLayout>
+      </DHLayout>
+    </FormProvider>
   );
 }
 

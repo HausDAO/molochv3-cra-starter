@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@daohaus/keychain-utils": "^0.0.2",
-    "@daohaus/test-icon": "^0.0.4",
-    "@daohaus/ui": "^0.0.28",
-    "@daohaus/utils": "^0.0.10",
+    "@daohaus/connect": "^0.0.11",
+    "@daohaus/ui": "^0.0.31",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,8 +12,10 @@
     "@types/node": "^16.18.4",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+    "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.3",
     "web-vitals": "^2.1.4"
