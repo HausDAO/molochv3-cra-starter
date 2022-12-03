@@ -1230,62 +1230,66 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
-"@daohaus/connect-context@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@daohaus/connect-context/-/connect-context-0.0.6.tgz#b755305976b0a7489f7b0e660f2f6b592f55d9e9"
-  integrity sha512-NUA9faQsZtABILvWqS7FAH6jGC1vE+iSQSHcPs295rv3giSSvnyJLUw5q3FMQYfMMI6m4TpMDMTa0eXxBsr1/Q==
+"@daohaus/connect-context@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@daohaus/connect-context/-/connect-context-0.0.9.tgz#3a2b88c74b0f2179d209c5623e4e358120177c56"
+  integrity sha512-wM77NGoSvN864aV2SvULWWNevQcmtJ+PB7v4f/ppQxQaTMwhJ+paLHrkB/+D2Zt2UGXTgIFMLGguoBgxxy4new==
   dependencies:
-    "@daohaus/keychain-utils" "0.0.5"
-    "@daohaus/profile-data" "0.0.6"
-    "@daohaus/utils" "0.0.13"
+    "@daohaus/keychain-utils" "0.0.8"
+    "@daohaus/profile-data" "0.0.9"
+    "@daohaus/utils" "0.0.16"
     "@gnosis.pm/safe-apps-web3modal" "17.0.2"
     "@walletconnect/ethereum-provider" "2.1.1"
+    ethers "5.3.1"
     react "18.2.0"
     web3modal "1.9.9"
 
-"@daohaus/connect@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@daohaus/connect/-/connect-0.0.11.tgz#b68efe734e3449f0418c59d9e20ec8c07fabf5a0"
-  integrity sha512-B1+4a5oU/lbN7vRG0t/fA9sXZLWqpVALcOdPVkLNha2+2zBHI1tCI3mUqe9uSfbAUKbRuBPg8CblnULW3uXeVw==
+"@daohaus/connect@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@daohaus/connect/-/connect-0.0.14.tgz#02e702331deeee169378c1e10025600662523807"
+  integrity sha512-LQwrgjfRQqcYzWSubH8L5yTiAHuj3Xn8LTVTsbl3Bz4YbC7XbZSjPb7689yBSdcbMChk7QKd9mWB79HMEghF/w==
   dependencies:
-    "@daohaus/connect-context" "0.0.6"
-    "@daohaus/keychain-utils" "0.0.5"
-    "@daohaus/ui" "0.0.31"
-    "@daohaus/utils" "0.0.13"
+    "@daohaus/connect-context" "0.0.9"
+    "@daohaus/keychain-utils" "0.0.8"
+    "@daohaus/ui" "0.0.34"
+    "@daohaus/utils" "0.0.16"
     "@radix-ui/colors" "0.1.8"
     classnames "2.3.2"
     react "18.2.0"
     react-icons "4.7.1"
     styled-components "5.3.5"
 
-"@daohaus/data-fetch-utils@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@daohaus/data-fetch-utils/-/data-fetch-utils-0.0.4.tgz#eba6c53e39b1cd8706e0a9094a85338d6bc5f876"
-  integrity sha512-8zK2OMmGEmgZHsqjfiwkyAGE7orApSslo3jHXXUW6jQ94NUhLvYEnrNEwGnEW3I2Q75tg2PMPOZZrBB9hGkb/g==
+"@daohaus/data-fetch-utils@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@daohaus/data-fetch-utils/-/data-fetch-utils-0.0.7.tgz#f9199cc5216a1b9430c6e09f3ddc8b9997191413"
+  integrity sha512-/E0Ta116gdGvUyFFkEoT5RYu3Jwux5Ujj7W3FHiURJuKwudhEEA0j16QZnqzU9VJV63hDCjRN9tLGVeI/JjdcQ==
   dependencies:
-    "@daohaus/keychain-utils" "0.0.5"
+    "@daohaus/keychain-utils" "0.0.8"
     "@graphql-typed-document-node/core" "3.1.1"
     cross-fetch "2.2.6"
     graphql "16.3.0"
     graphql-request "4.3.0"
     tslib "2.4.1"
 
-"@daohaus/keychain-utils@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@daohaus/keychain-utils/-/keychain-utils-0.0.5.tgz#54b9d61e0c4a65c2005ccd1c49fd491ea6ebc14b"
-  integrity sha512-F/DCrsKfJ7nBtzD8WS2mRZUa1vY3Kj65ub/X6kNGh6wWBWXa8LAQrhpd0D2B9z12Qc+gGYgRqlO70toVrbWwZg==
-
-"@daohaus/profile-data@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@daohaus/profile-data/-/profile-data-0.0.6.tgz#b779f25dc740062915d9aa92621a0391b0ee267d"
-  integrity sha512-ZZDfgNL3eF22xLM7qoA256A1+AVFZTUDlb4/IAFy0Fl/qqwCKWyUZDKCRzwLTZZkyDhyN7uFGuRbcMw/XFVY5A==
+"@daohaus/keychain-utils@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@daohaus/keychain-utils/-/keychain-utils-0.0.8.tgz#cdb8cb538bb8e6eb9345d5f0e92855ab6c370467"
+  integrity sha512-lbOSb8sUeekhxQNaVZIqWI7jle1LGwZGkZ1+lleoM670jH1KvrgazsQyxZnKF2qGzC0/j6PJymre+ETYAYYZhQ==
   dependencies:
-    "@daohaus/data-fetch-utils" "0.0.4"
-    "@daohaus/keychain-utils" "0.0.5"
-    "@daohaus/utils" "0.0.13"
+    tslib "2.4.1"
+
+"@daohaus/profile-data@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@daohaus/profile-data/-/profile-data-0.0.9.tgz#85a95577c71d631c3858de59fcc5173582fa4517"
+  integrity sha512-HQ3VuMxwsF1d4M1soy+P4hePifunaTBlmuw/ZBsYI4455n3a57DaiEMJA0rpx9yMO/7SgsvCnxxKNff2xeEkBg==
+  dependencies:
+    "@daohaus/data-fetch-utils" "0.0.7"
+    "@daohaus/keychain-utils" "0.0.8"
+    "@daohaus/utils" "0.0.16"
     "@graphql-typed-document-node/core" "3.1.1"
     cross-fetch "2.2.6"
     date-fns "2.29.3"
+    ethers "5.3.1"
     graphql "16.3.0"
     graphql-request "4.3.0"
     localforage "1.10.0"
@@ -1294,13 +1298,13 @@
     react-hook-form "7.39.1"
     tslib "2.4.1"
 
-"@daohaus/ui@0.0.31", "@daohaus/ui@^0.0.31":
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/@daohaus/ui/-/ui-0.0.31.tgz#31c40b22b49dba7742f95f553ec42871d9f096e8"
-  integrity sha512-Ez2b1zipH+OoMwwcbVQtfvt2M5vaEZXHsnoD5lD5uR5x27RsLRz30ExENyP7orm44quUpzUmgGLO9UJZD+7hHw==
+"@daohaus/ui@0.0.34", "@daohaus/ui@^0.0.34":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@daohaus/ui/-/ui-0.0.34.tgz#69a04353f189c4b7606a689f7993abc7a9252800"
+  integrity sha512-fNn4orqbA/3qb0rdR8Aq2EYed0zcrzryqD3eXTBHlrKcqqMmAQsNXzxEWjRzHn1u6K58XWgWRiTmOenDS2Sn4Q==
   dependencies:
-    "@daohaus/keychain-utils" "0.0.5"
-    "@daohaus/utils" "0.0.13"
+    "@daohaus/keychain-utils" "0.0.8"
+    "@daohaus/utils" "0.0.16"
     "@radix-ui/colors" "0.1.8"
     "@radix-ui/react-accessible-icon" "1.0.1"
     "@radix-ui/react-avatar" "1.0.1"
@@ -1322,15 +1326,17 @@
     react "18.2.0"
     react-hook-form "7.39.1"
     react-icons "4.7.1"
+    rollup-plugin-sourcemaps "0.6.3"
     styled-components "5.3.5"
 
-"@daohaus/utils@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@daohaus/utils/-/utils-0.0.13.tgz#1a262a1f8601ddee0b945861f51a186297576a1b"
-  integrity sha512-c/Zh1Js2KbDGWWpUwO3guehBlvt8gUeTLfyhiZQYOCLcXmPKRzyMm3aNXehRidgYltn1VmTHerYQeNm0Lfjp6A==
+"@daohaus/utils@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@daohaus/utils/-/utils-0.0.16.tgz#265ce31929a4a95f8177d941fabae84cad12ec20"
+  integrity sha512-G8cwVzURM0j1rjHcMvv/rcLPz7GuGO1mJGaFiMuQ/o57/GU0KFl9uTnaAJ3WAQOesKJu0ZTNQv+jcmiAm3z9wQ==
   dependencies:
-    "@daohaus/keychain-utils" "0.0.5"
+    "@daohaus/keychain-utils" "0.0.8"
     date-fns "2.29.3"
+    ethers "5.3.1"
     localforage "1.10.0"
     numbro "2.3.6"
     react "18.2.0"
@@ -3352,7 +3358,7 @@
     "@rollup/pluginutils" "^3.1.0"
     magic-string "^0.25.7"
 
-"@rollup/pluginutils@^3.1.0":
+"@rollup/pluginutils@^3.0.9", "@rollup/pluginutils@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-3.1.0.tgz#706b4524ee6dc8b103b3c995533e5ad680c02b9b"
   integrity sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==
@@ -4165,9 +4171,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^18.0.25":
-  version "18.0.25"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.25.tgz#8b1dcd7e56fe7315535a4af25435e0bb55c8ae44"
-  integrity sha512-xD6c0KDT4m7n9uD4ZHi02lzskaiqcBxf4zi+tXZY98a04wvc0hi/TcCPC2FOESZi51Nd7tlUeOJY8RofL799/g==
+  version "18.0.26"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.26.tgz#8ad59fc01fef8eaf5c74f4ea392621749f0b7917"
+  integrity sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -7815,9 +7821,9 @@ eslint-webpack-plugin@^3.1.1:
     schema-utils "^4.0.0"
 
 eslint@^8.3.0:
-  version "8.28.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.28.0.tgz#81a680732634677cc890134bcdd9fdfea8e63d6e"
-  integrity sha512-S27Di+EVyMxcHiwDrFzk8dJYAaD+/5SoWKxL1ri/71CRHsnJnRDPNt2Kzj24+MT9FDupf4aqqyqPrvI8MvQ4VQ==
+  version "8.29.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.29.0.tgz#d74a88a20fb44d59c51851625bc4ee8d0ec43f87"
+  integrity sha512-isQ4EEiyUjZFbEKvEGJKKGBwXtvXX+zJbkVKCgTuB9t/+jUBcy8avhkEwWJecI15BkRkOYmvIM5ynbhRjEkoeg==
   dependencies:
     "@eslint/eslintrc" "^1.3.3"
     "@humanwhocodes/config-array" "^0.11.6"
@@ -8171,7 +8177,7 @@ ethers@5.6.9:
     "@ethersproject/web" "5.6.1"
     "@ethersproject/wordlists" "5.6.1"
 
-ethers@^5.6.8, ethers@^5.7.2:
+ethers@^5.6.8:
   version "5.7.2"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-5.7.2.tgz#3a7deeabbb8c030d4126b24f84e525466145872e"
   integrity sha512-wswUsmWo1aOK8rR7DIKiWSw9DbLWe6x98Jrn8wcTflTVvaXhAMaB5zGAXy0GYQEQp9iO1iSHWVyARQm11zUtyg==
@@ -8442,9 +8448,9 @@ fast-safe-stringify@^2.0.7, fast-safe-stringify@^2.0.8:
   integrity sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==
 
 fastq@^1.6.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.13.0.tgz#616760f88a7526bdfc596b7cab8c18938c36b98c"
-  integrity sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.14.0.tgz#107f69d7295b11e0fccc264e1fc6389f623731ce"
+  integrity sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==
   dependencies:
     reusify "^1.0.4"
 
@@ -13904,6 +13910,14 @@ rlp@^2.0.0, rlp@^2.2.1, rlp@^2.2.2, rlp@^2.2.3, rlp@^2.2.4:
   dependencies:
     bn.js "^5.2.0"
 
+rollup-plugin-sourcemaps@0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-sourcemaps/-/rollup-plugin-sourcemaps-0.6.3.tgz#bf93913ffe056e414419607f1d02780d7ece84ed"
+  integrity sha512-paFu+nT1xvuO1tPFYXGe+XnQvg4Hjqv/eIhG8i5EspfYYPBKL57X7iVbfv55aNVASg3dzWvES9dmWsL2KhfByw==
+  dependencies:
+    "@rollup/pluginutils" "^3.0.9"
+    source-map-resolve "^0.6.0"
+
 rollup-plugin-terser@^7.0.0:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-7.0.2.tgz#e8fbba4869981b2dc35ae7e8a502d5c6c04d324d"
@@ -14383,6 +14397,14 @@ source-map-resolve@^0.5.0:
     resolve-url "^0.2.1"
     source-map-url "^0.4.0"
     urix "^0.1.0"
+
+source-map-resolve@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.6.0.tgz#3d9df87e236b53f16d01e58150fc7711138e5ed2"
+  integrity sha512-KXBr9d/fO/bWo97NXsPIAW1bFSBOuCnjbNTBMO7N59hsv5i9yzRDfcYwwt0l04+VqnKC+EwzvJZIP/qkuMgR/w==
+  dependencies:
+    atob "^2.1.2"
+    decode-uri-component "^0.2.0"
 
 source-map-support@^0.5.13, source-map-support@^0.5.16, source-map-support@^0.5.6, source-map-support@~0.5.12, source-map-support@~0.5.20:
   version "0.5.21"
@@ -15026,9 +15048,9 @@ terser@^4.1.2:
     source-map-support "~0.5.12"
 
 terser@^5.0.0, terser@^5.10.0, terser@^5.14.1:
-  version "5.16.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.16.0.tgz#29362c6f5506e71545c73b069ccd199bb28f7f54"
-  integrity sha512-KjTV81QKStSfwbNiwlBXfcgMcOloyuRdb62/iLFPGBcVNF4EXjhdYBhYHmbJpiBrVxZhDvltE11j+LBQUxEEJg==
+  version "5.16.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.16.1.tgz#5af3bc3d0f24241c7fb2024199d5c461a1075880"
+  integrity sha512-xvQfyfA1ayT0qdK47zskQgRZeWLoOQ8JQ6mIgRGVNwZKdQMU+5FkCBjmv4QjcrTzyZquRw2FVtlJSRUmMKQslw==
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     acorn "^8.5.0"
